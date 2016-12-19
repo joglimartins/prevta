@@ -49,21 +49,16 @@
                 <div class="animated fadeIn">
                     <div class="row">
                         <div class="col-md-5">
-                            <div style="padding: 10px">
+                            <div style="background: #fff; padding: 15px">
+                                <p><strong><i class="fa fa-keyboard-o fa-lg"></i> Atalhos do Teclado</strong></p>
                                 <table class="table" style="font-size: 10pt;">
-                                    <thead>
-                                        <tr>
-                                            <th>Atalho</th>
-                                            <th>Descrição</th>
-                                        </tr>
-                                    </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Ctrl+Espaço</td>
+                                            <td><strong>s</strong></td>
                                             <td>Abrir localização rápida de segurados.</td>
                                         </tr>
                                         <tr>
-                                            <td>Ctrl+Alt+S</td>
+                                            <td><strong>e</strong></td>
                                             <td>Abrir Listagem de segurados.</td>
                                         </tr>
                                     </tbody>
@@ -77,14 +72,14 @@
 
         @push('homekey')
             <script type="text/javascript">
-                key('ctrl+space', function(){ 
+                key('s', function(){ 
                     $('.localizacao-rapida').modal();
                     $('.localizacao-rapida').on('shown.bs.modal', function () {
                         $('#localizainput').focus();
                     })
                 });
 
-                key('ctrl+alt+s', function(){ 
+                key('e', function(){ 
                     document.location.href = '/cadastro/servidores';
                 });
             </script>
