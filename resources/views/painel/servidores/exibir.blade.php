@@ -26,11 +26,11 @@
                         <div class="col-md-8">
                             <div class="card">
                                 <div class="card-block">
-                                    <button type="button" class="btn btn-primary"><i class="fa fa-star"></i>&nbsp; Emitir Guia</button>
-                                    <button type="button" class="btn btn-inf"><i class="fa fa-lightbulb-o"></i>&nbsp; Imprimir</button>
-                                    <button type="button" class="btn btn-inf"><i class="fa fa-magic"></i>&nbsp; Editar</button>
-                                    <button type="button" class="btn btn-inf"><i class="fa fa-map-marker"></i>&nbsp; Carteirinha</button>
-                                    <button type="button" class="btn btn-inf"><i class="fa fa-rss"></i>&nbsp; Danger</button>
+                                    <button type="button" class="btn btn-primary"><i class="fa fa-sticky-note"></i>&nbsp; Emitir Guia</button>
+                                    <button type="button" class="btn btn-inf"><i class="fa fa-print"></i>&nbsp; Imprimir</button>
+                                    <button type="button" class="btn btn-inf"><i class="fa fa-pencil"></i>&nbsp; Editar</button>
+                                    <button type="button" class="btn btn-inf"><i class="fa fa-credit-card"></i>&nbsp; Carteirinha</button>
+                                    <button type="button" class="btn btn-inf"><i class="fa fa-bar-chart"></i>&nbsp; Relatório</button>
                                 </div>
                             </div>
                         </div>
@@ -39,19 +39,22 @@
                         <div class="col-md-12 mb-12">
                             <ul class="nav nav-tabs" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" data-toggle="tab" href="#dados" role="tab" aria-controls="dados" ><i class="icon-calculator"></i> Dados Gerais</a>
+                                    <a class="nav-link active" data-toggle="tab" href="#dados" role="tab" aria-controls="dados" ><i class="icon-user"></i> Dados Gerais</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#funcionais" role="tab" aria-controls="funcionais" ><i class="icon-basket-loaded"></i> Dados Funcionais</a>
+                                    <a class="nav-link" data-toggle="tab" href="#funcionais" role="tab" aria-controls="funcionais" ><i class="icon-briefcase"></i> Dados Funcionais</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#contatos" role="tab" aria-controls="contatos" ><i class="icon-calculator"></i> Contatos</a>
+                                    <a class="nav-link" data-toggle="tab" href="#contatos" role="tab" aria-controls="contatos" ><i class="icon-speech"></i> Contatos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#dependentes" role="tab" aria-controls="dependentes"><i class="icon-calculator"></i> Dependentes</a>
+                                    <a class="nav-link" data-toggle="tab" href="#dependentes" role="tab" aria-controls="dependentes"><i class="icon-people"></i> Dependentes</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-toggle="tab" href="#contribuicoes" role="tab" aria-controls="contribuicoes"><i class="icon-pie-chart"></i> Contribuições &nbsp;<span class="tag tag-pill tag-danger">2</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#documentacao" role="tab" aria-controls="documentacao"><i class="icon-docs"></i> Documentações</a>
                                 </li>
                             </ul>
 
@@ -628,6 +631,18 @@
                                             </ul>
 
                                 </div>
+
+
+
+                                <div class="tab-pane" id="documentacao" role="tabpanel">
+                                    
+                                    <p>Nenhuma documentação digitalizada.</p>
+                                            
+                                </div>
+
+
+    
+
                             </div>
                         </div>
                     </div>

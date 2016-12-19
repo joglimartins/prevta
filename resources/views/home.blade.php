@@ -27,14 +27,16 @@
                         <h6 class="modal-title">Localização Rápida</h6>
                       </div>
                       <div class="modal-body">
-                        <div class="form-group form-group-lg">
-                            <div class="input-group input-group-lg">
-                                <input class="form-control" type="text" id="localizainput" placeholder="Nome, Matrícula, CPF, etc.">
-                                <span class="input-group-btn">
-                                    <a class="btn btn-primary" href="{{url('/cadastro/servidores/1234')}}"><i class="fa fa-search"></i></a>
-                                </span>
+                        <form method="get" action="{{url('/cadastro/servidores/1234')}}">
+                            <div class="form-group form-group-lg">
+                                <div class="input-group input-group-lg">
+                                    <input class="form-control" type="text" id="localizainput" placeholder="Nome, Matrícula, CPF, etc.">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
+                                    </span>
+                                </div>
                             </div>
-                        </div>
+                        </form>
                       </div>
                       <div class="modal-footer">
                       </div>
