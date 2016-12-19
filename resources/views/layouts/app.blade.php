@@ -29,6 +29,7 @@
             'csrfToken' => csrf_token(),
         ]); ?>
     </script>
+
 </head>
 
 <body class="navbar-fixed sidebar-nav fixed-nav">
@@ -58,11 +59,11 @@
 
                 <ul class="nav navbar-nav float-xs-right hidden-md-down">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="icon-bell"></i><span class="tag tag-pill tag-danger">5</span></a>
+                        <a class="nav-link" href="#"><i class="icon-bell"></i><!-- <span class="tag tag-pill tag-danger">5</span> --></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                            <img src="{{url('img/avatars/6.jpg')}}" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="{{url('img/avatars/6.jpg')}}" class="img-avatar" alt="">
                             <span class="hidden-md-down">{{ Auth::user()->name }}</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
@@ -85,7 +86,7 @@
                             <a class="dropdown-item" href="{{ url('/logout') }}"
                                 onclick="event.preventDefault();
                                          document.getElementById('logout-form').submit();"><i class="fa fa-lock"></i>
-                                Logout
+                                Sair
                             </a>
                             <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
                                 {{ csrf_field() }}
@@ -126,9 +127,8 @@
     <!-- GenesisUI main scripts -->
 
     <script src="{{url('js/app.js')}}"></script>
-
-
-
+    <script src="{{url('js/keymaster.js')}}"></script>
+    @stack('homekey')
 
 
     <!-- Plugins and scripts required by this views -->
