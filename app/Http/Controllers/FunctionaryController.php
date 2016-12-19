@@ -13,7 +13,7 @@ class FunctionaryController extends Controller
      */
     public function index()
     {
-        return 'ola';
+        return view('painel.servidores.listar');
     }
 
     /**

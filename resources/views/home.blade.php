@@ -62,6 +62,10 @@
                                             <td>Ctrl+Espaço</td>
                                             <td>Abrir localização rápida de segurados.</td>
                                         </tr>
+                                        <tr>
+                                            <td>Ctrl+Alt+S</td>
+                                            <td>Abrir Listagem de segurados.</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -78,6 +82,10 @@
                     $('.localizacao-rapida').on('shown.bs.modal', function () {
                         $('#localizainput').focus();
                     })
+                });
+
+                key('ctrl+alt+s', function(){ 
+                    document.location.href = '/cadastro/servidores';
                 });
             </script>
         @endpush

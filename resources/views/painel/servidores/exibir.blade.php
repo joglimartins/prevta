@@ -27,7 +27,7 @@
                             <div class="card">
                                 <div class="card-block">
                                     <button type="button" class="btn btn-primary"><i class="fa fa-sticky-note"></i>&nbsp; Emitir Guia</button>
-                                    <button type="button" class="btn btn-inf"><i class="fa fa-print"></i>&nbsp; Imprimir</button>
+                                    <button type="button" class="btn btn-inf"><i class="fa fa-print"></i>&nbsp; Imprimir Ficha</button>
                                     <button type="button" class="btn btn-inf"><i class="fa fa-pencil"></i>&nbsp; Editar</button>
                                     <button type="button" class="btn btn-inf"><i class="fa fa-credit-card"></i>&nbsp; Carteirinha</button>
                                     <button type="button" class="btn btn-inf"><i class="fa fa-bar-chart"></i>&nbsp; Relatório</button>
