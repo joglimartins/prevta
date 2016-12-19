@@ -65,86 +65,10 @@
                                             <div class="card">
                                                 <div class="card-header">
                                                     <strong>Dados Pessoais</strong>
-                                                    <small>Form</small>
+                                                    <small></small>
                                                 </div>
                                                 <div class="card-block">
-                                                    <div class="row">
-
-                                                        <div class="col-sm-12">
-
-                                                            <div class="form-group">
-                                                                <label for="name">Name</label>
-                                                                <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-                                                    <!--/row-->
-
-                                                    <div class="row">
-
-                                                        <div class="col-sm-12">
-
-                                                            <div class="form-group">
-                                                                <label for="ccnumber">Credit Card Number</label>
-                                                                <input type="text" class="form-control" id="ccnumber" placeholder="0000 0000 0000 0000">
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-                                                    <!--/row-->
-
-                                                    <div class="row">
-
-                                                        <div class="form-group col-sm-4">
-                                                            <label for="ccmonth">Month</label>
-                                                            <select class="form-control" id="ccmonth">
-                                                                <option>1</option>
-                                                                <option>2</option>
-                                                                <option>3</option>
-                                                                <option>4</option>
-                                                                <option>5</option>
-                                                                <option>6</option>
-                                                                <option>7</option>
-                                                                <option>8</option>
-                                                                <option>9</option>
-                                                                <option>10</option>
-                                                                <option>11</option>
-                                                                <option>12</option>
-                                                            </select>
-                                                        </div>
-
-                                                        <div class="form-group col-sm-4">
-                                                            <label for="ccyear">Year</label>
-                                                            <select class="form-control" id="ccyear">
-                                                                <option>2014</option>
-                                                                <option>2015</option>
-                                                                <option>2016</option>
-                                                                <option>2017</option>
-                                                                <option>2018</option>
-                                                                <option>2019</option>
-                                                                <option>2020</option>
-                                                                <option>2021</option>
-                                                                <option>2022</option>
-                                                                <option>2023</option>
-                                                                <option>2024</option>
-                                                                <option>2025</option>
-                                                            </select>
-                                                        </div>
-
-                                                        <div class="col-sm-4">
-
-                                                            <div class="form-group">
-                                                                <label for="cvv">CVV/CVC</label>
-                                                                <input type="text" class="form-control" id="cvv" placeholder="123">
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-                                                    <!--/row-->
+                                                    // Formulario
                                                 </div>
                                             </div>
 
@@ -155,44 +79,11 @@
 
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <strong>Company</strong>
-                                                    <small>Form</small>
+                                                    <strong>Endereço</strong>
+                                                    <small></small>
                                                 </div>
                                                 <div class="card-block">
-                                                    <div class="form-group">
-                                                        <label for="company">Company</label>
-                                                        <input type="text" class="form-control" id="company" placeholder="Enter your company name">
-                                                    </div>
-
-                                                    <div class="form-group">
-                                                        <label for="vat">VAT</label>
-                                                        <input type="text" class="form-control" id="vat" placeholder="PL1234567890">
-                                                    </div>
-
-                                                    <div class="form-group">
-                                                        <label for="street">Street</label>
-                                                        <input type="text" class="form-control" id="street" placeholder="Enter street name">
-                                                    </div>
-
-                                                    <div class="row">
-
-                                                        <div class="form-group col-sm-8">
-                                                            <label for="city">City</label>
-                                                            <input type="text" class="form-control" id="city" placeholder="Enter your city">
-                                                        </div>
-
-                                                        <div class="form-group col-sm-4">
-                                                            <label for="postal-code">Postal Code</label>
-                                                            <input type="text" class="form-control" id="postal-code" placeholder="Postal Code">
-                                                        </div>
-
-                                                    </div>
-                                                    <!--/row-->
-
-                                                    <div class="form-group">
-                                                        <label for="country">Country</label>
-                                                        <input type="text" class="form-control" id="country" placeholder="Country name">
-                                                    </div>
+                                                    // Formulario
                                                 </div>
                                             </div>
 
@@ -206,87 +97,11 @@
                                         <div class="col-sm-6">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <strong>Dados Pessoais</strong>
-                                                    <small>Form</small>
+                                                    <strong>Dados Funcionais</strong>
+                                                    <small></small>
                                                 </div>
                                                 <div class="card-block">
-                                                    <div class="row">
-
-                                                        <div class="col-sm-12">
-
-                                                            <div class="form-group">
-                                                                <label for="name">Name</label>
-                                                                <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-                                                    <!--/row-->
-
-                                                    <div class="row">
-
-                                                        <div class="col-sm-12">
-
-                                                            <div class="form-group">
-                                                                <label for="ccnumber">Credit Card Number</label>
-                                                                <input type="text" class="form-control" id="ccnumber" placeholder="0000 0000 0000 0000">
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-                                                    <!--/row-->
-
-                                                    <div class="row">
-
-                                                        <div class="form-group col-sm-4">
-                                                            <label for="ccmonth">Month</label>
-                                                            <select class="form-control" id="ccmonth">
-                                                                <option>1</option>
-                                                                <option>2</option>
-                                                                <option>3</option>
-                                                                <option>4</option>
-                                                                <option>5</option>
-                                                                <option>6</option>
-                                                                <option>7</option>
-                                                                <option>8</option>
-                                                                <option>9</option>
-                                                                <option>10</option>
-                                                                <option>11</option>
-                                                                <option>12</option>
-                                                            </select>
-                                                        </div>
-
-                                                        <div class="form-group col-sm-4">
-                                                            <label for="ccyear">Year</label>
-                                                            <select class="form-control" id="ccyear">
-                                                                <option>2014</option>
-                                                                <option>2015</option>
-                                                                <option>2016</option>
-                                                                <option>2017</option>
-                                                                <option>2018</option>
-                                                                <option>2019</option>
-                                                                <option>2020</option>
-                                                                <option>2021</option>
-                                                                <option>2022</option>
-                                                                <option>2023</option>
-                                                                <option>2024</option>
-                                                                <option>2025</option>
-                                                            </select>
-                                                        </div>
-
-                                                        <div class="col-sm-4">
-
-                                                            <div class="form-group">
-                                                                <label for="cvv">CVV/CVC</label>
-                                                                <input type="text" class="form-control" id="cvv" placeholder="123">
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-                                                    <!--/row-->
+                                                    // Formulario
                                                 </div>
                                             </div>
 
@@ -297,44 +112,11 @@
 
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <strong>Company</strong>
-                                                    <small>Form</small>
+                                                    <strong>Instituição</strong>
+                                                    <small></small>
                                                 </div>
                                                 <div class="card-block">
-                                                    <div class="form-group">
-                                                        <label for="company">Company</label>
-                                                        <input type="text" class="form-control" id="company" placeholder="Enter your company name">
-                                                    </div>
-
-                                                    <div class="form-group">
-                                                        <label for="vat">VAT</label>
-                                                        <input type="text" class="form-control" id="vat" placeholder="PL1234567890">
-                                                    </div>
-
-                                                    <div class="form-group">
-                                                        <label for="street">Street</label>
-                                                        <input type="text" class="form-control" id="street" placeholder="Enter street name">
-                                                    </div>
-
-                                                    <div class="row">
-
-                                                        <div class="form-group col-sm-8">
-                                                            <label for="city">City</label>
-                                                            <input type="text" class="form-control" id="city" placeholder="Enter your city">
-                                                        </div>
-
-                                                        <div class="form-group col-sm-4">
-                                                            <label for="postal-code">Postal Code</label>
-                                                            <input type="text" class="form-control" id="postal-code" placeholder="Postal Code">
-                                                        </div>
-
-                                                    </div>
-                                                    <!--/row-->
-
-                                                    <div class="form-group">
-                                                        <label for="country">Country</label>
-                                                        <input type="text" class="form-control" id="country" placeholder="Country name">
-                                                    </div>
+                                                    // Formulario
                                                 </div>
                                             </div>
 
@@ -350,87 +132,30 @@
                                         <div class="col-sm-6">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <strong>Contatos</strong>
-                                                    <small>Form</small>
+                                                    <strong>Cadastrar </strong>Contato
                                                 </div>
                                                 <div class="card-block">
-                                                    <div class="row">
-
-                                                        <div class="col-sm-12">
-
-                                                            <div class="form-group">
-                                                                <label for="name">Name</label>
-                                                                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                                    <form action="" method="post" class="form-horizontal ">
+                                                        <div class="form-group row">
+                                                            <label class="col-md-3 form-control-label" for="hf-email">Tipo</label>
+                                                            <div class="col-md-9">
+                                                                <select class="form-control">
+                                                                    <option value="1">Telefone</option>
+                                                                    <option value="2">Email</option>
+                                                                    <option value="3">...</option>
+                                                                </select> 
                                                             </div>
-
                                                         </div>
-
-                                                    </div>
-                                                    <!--/row-->
-
-                                                    <div class="row">
-
-                                                        <div class="col-sm-12">
-
-                                                            <div class="form-group">
-                                                                <label for="ccnumber">Credit Card Number</label>
-                                                                <input type="text" class="form-control" id="ccnumber" placeholder="0000 0000 0000 0000">
+                                                        <div class="form-group row">
+                                                            <label class="col-md-3 form-control-label" for="hf-password">Contato</label>
+                                                            <div class="col-md-9">
+                                                                <input type="text" class="form-control">
                                                             </div>
-
                                                         </div>
-
-                                                    </div>
-                                                    <!--/row-->
-
-                                                    <div class="row">
-
-                                                        <div class="form-group col-sm-4">
-                                                            <label for="ccmonth">Month</label>
-                                                            <select class="form-control" id="ccmonth">
-                                                                <option>1</option>
-                                                                <option>2</option>
-                                                                <option>3</option>
-                                                                <option>4</option>
-                                                                <option>5</option>
-                                                                <option>6</option>
-                                                                <option>7</option>
-                                                                <option>8</option>
-                                                                <option>9</option>
-                                                                <option>10</option>
-                                                                <option>11</option>
-                                                                <option>12</option>
-                                                            </select>
-                                                        </div>
-
-                                                        <div class="form-group col-sm-4">
-                                                            <label for="ccyear">Year</label>
-                                                            <select class="form-control" id="ccyear">
-                                                                <option>2014</option>
-                                                                <option>2015</option>
-                                                                <option>2016</option>
-                                                                <option>2017</option>
-                                                                <option>2018</option>
-                                                                <option>2019</option>
-                                                                <option>2020</option>
-                                                                <option>2021</option>
-                                                                <option>2022</option>
-                                                                <option>2023</option>
-                                                                <option>2024</option>
-                                                                <option>2025</option>
-                                                            </select>
-                                                        </div>
-
-                                                        <div class="col-sm-4">
-
-                                                            <div class="form-group">
-                                                                <label for="cvv">CVV/CVC</label>
-                                                                <input type="text" class="form-control" id="cvv" placeholder="123">
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-                                                    <!--/row-->
+                                                    </form>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Adicionar</button>
                                                 </div>
                                             </div>
 
@@ -441,44 +166,63 @@
 
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <strong>Company</strong>
-                                                    <small>Form</small>
+                                                    <i class="fa fa-align-justify"></i> Contatos
                                                 </div>
                                                 <div class="card-block">
-                                                    <div class="form-group">
-                                                        <label for="company">Company</label>
-                                                        <input type="text" class="form-control" id="company" placeholder="Enter your company name">
-                                                    </div>
-
-                                                    <div class="form-group">
-                                                        <label for="vat">VAT</label>
-                                                        <input type="text" class="form-control" id="vat" placeholder="PL1234567890">
-                                                    </div>
-
-                                                    <div class="form-group">
-                                                        <label for="street">Street</label>
-                                                        <input type="text" class="form-control" id="street" placeholder="Enter street name">
-                                                    </div>
-
-                                                    <div class="row">
-
-                                                        <div class="form-group col-sm-8">
-                                                            <label for="city">City</label>
-                                                            <input type="text" class="form-control" id="city" placeholder="Enter your city">
-                                                        </div>
-
-                                                        <div class="form-group col-sm-4">
-                                                            <label for="postal-code">Postal Code</label>
-                                                            <input type="text" class="form-control" id="postal-code" placeholder="Postal Code">
-                                                        </div>
-
-                                                    </div>
-                                                    <!--/row-->
-
-                                                    <div class="form-group">
-                                                        <label for="country">Country</label>
-                                                        <input type="text" class="form-control" id="country" placeholder="Country name">
-                                                    </div>
+                                                    <table class="table table-striped">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Tipo</th>
+                                                                <th>Contato</th>
+                                                                <th>Ações</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Email</td>
+                                                                <td>juliana@email.com</td>
+                                                                <td>
+                                                                    <span class="tag tag-danger">Excluir</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Telefone</td>
+                                                                <td>(21) 2323-2323</td>
+                                                                <td>
+                                                                    <span class="tag tag-danger">Excluir</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Celular</td>
+                                                                <td>(21) 98888-8888</td>
+                                                                <td>
+                                                                    <span class="tag tag-danger">Excluir</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>twitter</td>
+                                                                <td>@juliana</td>
+                                                                <td>
+                                                                    <span class="tag tag-danger">Excluir</span>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <ul class="pagination">
+                                                        <li class="page-item"><a class="page-link" href="#">Prev</a>
+                                                        </li>
+                                                        <li class="page-item active">
+                                                            <a class="page-link" href="#">1</a>
+                                                        </li>
+                                                        <li class="page-item"><a class="page-link" href="#">2</a>
+                                                        </li>
+                                                        <li class="page-item"><a class="page-link" href="#">3</a>
+                                                        </li>
+                                                        <li class="page-item"><a class="page-link" href="#">4</a>
+                                                        </li>
+                                                        <li class="page-item"><a class="page-link" href="#">Next</a>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
 
