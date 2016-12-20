@@ -112,7 +112,7 @@
 
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <strong>Instituição</strong>
+                                                    <strong>Cargo e Locação</strong>
                                                     <small></small>
                                                 </div>
                                                 <div class="card-block">
@@ -235,7 +235,7 @@
         
 
                                 <div class="tab-pane" id="dependentes" role="tabpanel">
-                                    
+                                            <button class="btn btn-primary">Cadastrar Novo</button><br><br>
                                             <table class="table table-striped">
                                                 <thead>
                                                     <tr>
@@ -243,6 +243,7 @@
                                                         <th>Data de Nascimento</th>
                                                         <th>Grau</th>
                                                         <th>Situação</th>
+                                                        <th>Ações</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -253,6 +254,12 @@
                                                         <td>
                                                             <span class="tag tag-success">Ativo</span>
                                                         </td>
+                                                        <td>
+                                                            <a href="{{url('/cadastro/servidores/1234')}}"><i class="fa fa-eye"></i></a>
+                                                            <a href="#"><i class="fa fa-pencil"></i></a>
+                                                            <a href="#"><i class="fa fa-sticky-note"></i></a>
+                                                            <a href="#"><i class="fa fa-remove"></i></a>
+                                                        </td>
                                                     </tr>
                                                     <tr>
                                                         <td>Avram Tarasios</td>
@@ -260,6 +267,12 @@
                                                         <td>Filho</td>
                                                         <td>
                                                             <span class="tag tag-success">Ativo</span>
+                                                        </td>
+                                                        <td>
+                                                            <a href="{{url('/cadastro/servidores/1234')}}"><i class="fa fa-eye"></i></a>
+                                                            <a href="#"><i class="fa fa-pencil"></i></a>
+                                                            <a href="#"><i class="fa fa-sticky-note"></i></a>
+                                                            <a href="#"><i class="fa fa-remove"></i></a>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -269,6 +282,12 @@
                                                         <td>
                                                             <span class="tag tag-success">Ativo</span>
                                                         </td>
+                                                        <td>
+                                                            <a href="{{url('/cadastro/servidores/1234')}}"><i class="fa fa-eye"></i></a>
+                                                            <a href="#"><i class="fa fa-pencil"></i></a>
+                                                            <a href="#"><i class="fa fa-sticky-note"></i></a>
+                                                            <a href="#"><i class="fa fa-remove"></i></a>
+                                                        </td>
                                                     </tr>
                                                     <tr>
                                                         <td>Enéas Kwadwo</td>
@@ -277,6 +296,12 @@
                                                         <td>
                                                             <span class="tag tag-success">Ativo</span>
                                                         </td>
+                                                        <td>
+                                                            <a href="{{url('/cadastro/servidores/1234')}}"><i class="fa fa-eye"></i></a>
+                                                            <a href="#"><i class="fa fa-pencil"></i></a>
+                                                            <a href="#"><i class="fa fa-sticky-note"></i></a>
+                                                            <a href="#"><i class="fa fa-remove"></i></a>
+                                                        </td>
                                                     </tr>
                                                     <tr>
                                                         <td>Agapetus Tadeáš</td>
@@ -284,6 +309,12 @@
                                                         <td>Irmão</td>
                                                         <td>
                                                             <span class="tag tag-default">Inativo</span>
+                                                        </td>
+                                                        <td>
+                                                            <a href="{{url('/cadastro/servidores/1234')}}"><i class="fa fa-eye"></i></a>
+                                                            <a href="#"><i class="fa fa-pencil"></i></a>
+                                                            <a href="#"><i class="fa fa-sticky-note"></i></a>
+                                                            <a href="#"><i class="fa fa-remove"></i></a>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -309,7 +340,7 @@
                                             <table class="table table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th>Entidade</th>
+                                                        <th>Origem</th>
                                                         <th>Vencimento</th>
                                                         <th>Mês</th>
                                                         <th>Situação</th>
@@ -317,23 +348,23 @@
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td>Yiorgos Avraamu</td>
+                                                        <td>PMI</td>
                                                         <td>2012/01/01</td>
                                                         <td>Janeiro</td>
                                                         <td>
-                                                            <span class="tag tag-danger">Vencido</span>
+                                                            <span class="tag tag-danger">Não Contribuiu</span>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Avram Tarasios</td>
+                                                        <td>ITAPREVI</td>
                                                         <td>2012/02/01</td>
                                                         <td>Fevereiro</td>
                                                         <td>
-                                                            <span class="tag tag-danger">Vencido</span>
+                                                            <span class="tag tag-danger">Não Contribuiu</span>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Quintin Ed</td>
+                                                        <td>ITAPREVI</td>
                                                         <td>2012/02/01</td>
                                                         <td>Março</td>
                                                         <td>
@@ -341,19 +372,19 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Enéas Kwadwo</td>
+                                                        <td>PMI</td>
                                                         <td>2012/03/01</td>
                                                         <td>Abril</td>
                                                         <td>
-                                                            <span class="tag tag-success">Pago</span>
+                                                            <span class="tag tag-success">Contribuiu</span>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Agapetus Tadeáš</td>
+                                                        <td>PMI</td>
                                                         <td>2012/01/21</td>
                                                         <td>Maio</td>
                                                         <td>
-                                                            <span class="tag tag-success">pago</span>
+                                                            <span class="tag tag-success">Contribuiu</span>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -379,8 +410,51 @@
 
 
                                 <div class="tab-pane" id="documentacao" role="tabpanel">
-                                    
-                                    <p>Nenhuma documentação digitalizada.</p>
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    Carregar Documentos
+                                                </div>
+                                                <div class="card-block">
+                                                    <form action="" method="post">
+                                                        <div class="form-group">
+                                                            <div class="input-group">
+                                                                <input type="file" id="file-multiple-input" name="file-multiple-input" multiple="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="input-group">
+                                                                <span class="input-group-addon">Nome</span>
+                                                                <input type="text" id="username3" name="username3" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="input-group">
+                                                                <span class="input-group-addon">Obs.</span>
+                                                                <input type="email" id="email3" name="email3" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group form-actions">
+                                                            <button type="submit" class="btn btn-sm btn-primary">Carregar</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-7">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    Documentos Digitalizados
+                                                </div>
+                                                <div class="card-block">
+                                                    <p>Nenhuma documentação digitalizada.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                             
                                 </div>
 

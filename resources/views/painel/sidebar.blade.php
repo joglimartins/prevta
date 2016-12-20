@@ -9,13 +9,10 @@
                     Menu
                 </li>
                 <li class="nav-item nav-dropdown">
-                    <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-star"></i> Dados Cadastrais</a>
+                    <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-star"></i> Cadastros</a>
                     <ul class="nav-dropdown-items">
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="icon-star"></i> Segurado</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="icon-star"></i> Dependente</a>
+                            <a class="nav-link" href="#"><i class="icon-star"></i> Segurado/Depend.</a>
                         </li>
                         <li class="divider"></li>
                         <li class="nav-item">
@@ -30,7 +27,7 @@
                     </ul>
                 </li>
                 <li class="divider"></li>
-                <li class="nav-item nav-dropdown">
+                <!-- <li class="nav-item nav-dropdown">
                     <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-star"></i> Emissão de Guias</a>
                     <ul class="nav-dropdown-items">
                         <li class="nav-item">
@@ -40,13 +37,13 @@
                             <a class="nav-link" href="#"><i class="icon-star"></i> Guia Exames</a>
                         </li>
                     </ul>
-                </li>
-                <li class="divider"></li>
+                </li> -->
+                <!-- <li class="divider"></li> -->
                 <li class="nav-item nav-dropdown">
                     <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-star"></i> Consultas</a>
                     <ul class="nav-dropdown-items">
                         <li class="nav-item">
-                            <a class="nav-link" href="icons-font-awesome.html"><i class="icon-star"></i> Segurados</a>
+                            <a class="nav-link" href="#"><i class="icon-star"></i> Segurados</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#"><i class="icon-star"></i> Dependentes</a>
@@ -79,7 +76,7 @@
                     <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-star"></i> Relatórios</a>
                     <ul class="nav-dropdown-items">
                         <li class="nav-item">
-                            <a class="nav-link" href="icons-font-awesome.html"><i class="icon-star"></i> Guias Emitidas</a>
+                            <a class="nav-link" href="#"><i class="icon-star"></i> Guias Emitidas</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#"><i class="icon-star"></i> Atendimentos</a>

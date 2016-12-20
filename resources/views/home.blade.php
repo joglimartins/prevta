@@ -30,7 +30,7 @@
                         <form method="get" action="{{url('/cadastro/servidores/1234')}}">
                             <div class="form-group form-group-lg">
                                 <div class="input-group input-group-lg">
-                                    <input autocomplete="off" class="form-control" type="text" id="localizainput" placeholder="Aproxime o leitor de codigo de barras">
+                                    <input autocomplete="off" class="form-control" type="text" id="localizainput" placeholder="Aproxime a carteirinha ao leitor.">
                                     <span class="input-group-btn">
                                         <button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
                                     </span>
