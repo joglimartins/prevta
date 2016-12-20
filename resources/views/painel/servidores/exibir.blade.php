@@ -21,10 +21,10 @@
                     <div class="row">
                         <div class="col-md-5">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <img src="http://localhost:8000/img/avatars/6.jpg" alt="" width="100">
                                 </div>
-                                <div class="col-md-8" style="font-size: 14px;">
+                                <div class="col-md-9" style="font-size: 14px;">
                                     Matrícula: <br><strong>{{$id}}</strong><br>
                                     Servidor(a): <br><strong>Juliana Vasconcelos Alves</strong>
                                 </div>
