@@ -6,7 +6,7 @@
 
             <!-- Breadcrumb -->
             <ol class="breadcrumb">
-                <li class="breadcrumb-item">Home</li>
+                <li class="breadcrumb-item">Início</li>
                 <li class="breadcrumb-item">Servidores</li>
                 <li class="breadcrumb-item active">Listagem</li>
 

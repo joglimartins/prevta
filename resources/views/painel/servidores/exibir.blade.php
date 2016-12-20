@@ -6,13 +6,43 @@
 
             <!-- Breadcrumb -->
             <ol class="breadcrumb">
-                <li class="breadcrumb-item">Home</li>
+                <li class="breadcrumb-item">Início</li>
                 <li class="breadcrumb-item">Segurado</li>
                 <li class="breadcrumb-item active">Juliana Vasconcelos Alves</li>
 
                 <!-- Breadcrumb Menu-->
                 <li class="breadcrumb-menu">
                     <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+                        <button data-toggle="tooltip" data-placement="left" title="Tempo do atendimento" class="btn btn-secondary" disabled="disabled"><time id="atime">...</time></button>
+                        <script type="text/javascript">
+                            var segundo = 0;
+                            var minuto = 0;
+                            var hora = 0;
+
+                            window.setInterval(function () {
+                                segundo++;
+
+                                if(segundo > 59){
+                                    segundo = 0;
+                                    minuto++;
+                                } 
+
+                                if(minuto > 59){
+                                    minuto = 0;
+                                    hora++;
+                                }
+                                
+                                if(minuto > 0){
+                                    $('#atime').html('<span style="color: red"><i class="icon-clock"></i> '+hora+'h '+minuto+'m '+segundo+'s </span>');
+                                } else {
+                                    $('#atime').html('<span><i class="icon-clock"></i> '+hora+'h '+minuto+'m '+segundo+'s </span>');
+                                }
+
+                            }, 1000);
+
+                        </script>
+
                     </div>
                 </li>
             </ol>
@@ -25,7 +55,7 @@
                                     <img src="http://localhost:8000/img/avatars/6.jpg" alt="" width="100">
                                 </div>
                                 <div class="col-md-9" style="font-size: 14px;">
-                                    Matrícula: <br><strong>{{$id}}</strong><br>
+                                    Matrícula: <br><strong>{{$id}}</strong> <span class="tag tag-success">Ativo</span><br>
                                     Servidor(a): <br><strong>Juliana Vasconcelos Alves</strong>
                                 </div>
                             </div>
@@ -34,11 +64,32 @@
                             <div class="card card-inverse card-default">
                                 <div class="card-block">
                                     <blockquote class="card-blockquote">
-                                        <button type="button" class="btn btn-sm btn-primary"><i class="fa fa-sticky-note"></i>&nbsp; Emitir Guia</button>
-                                    <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-print"></i>&nbsp; Imprimir Ficha</button>
-                                    <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-pencil"></i>&nbsp; Notas</button>
-                                    <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-credit-card"></i>&nbsp; Carteirinha</button>
+                                        <button type="button" data-toggle="modal" data-target=".emitir-guia" class="btn btn-sm btn-primary"><i class="fa fa-sticky-note"></i>&nbsp; Emitir Guia</button>
+
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm active dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fa fa-print"></i>&nbsp; Imprimir
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <a class="dropdown-item" href="#">Ficha de Cadastro</a>
+                                            <a class="dropdown-item" href="#">Lista de Dependentes</a>
+                                            <a class="dropdown-item" href="#">Histórico de Contribuições</a>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm active dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fa fa-credit-card"></i>&nbsp; Carteirinha
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <a class="dropdown-item" href="#">Solicitar</a>
+                                            <a class="dropdown-item" href="#">Emitir</a>
+                                            <a class="dropdown-item" href="#">Histórico</a>
+                                        </div>
+                                    </div>
+
                                     <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-bar-chart"></i>&nbsp; Relatório</button>
+                                    <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-pencil"></i>&nbsp; Notas &nbsp;&nbsp;<span class="tag tag-pill tag-primary">2</span></button>
                                     </blockquote>
                                 </div>
                             </div>
@@ -156,7 +207,7 @@
                                                     <a href="#" class="float-xs-right mb-0"><i class="fa fa-pencil"></i></a>
                                                 </div>
                                                 <div class="card-block">
-                                                    // Formulario
+                                                    Carregando ...
                                                 </div>
                                             </div>
 
@@ -172,7 +223,7 @@
                                                     <a href="#" class="float-xs-right mb-0"><i class="fa fa-pencil"></i></a>
                                                 </div>
                                                 <div class="card-block">
-                                                    // Formulario
+                                                    Carregando ...
                                                 </div>
                                             </div>
 
@@ -525,4 +576,81 @@
             </div>
 
         </main>
+
+
+
+        <!-- modal emitir guia -->
+                <div class="modal fade emitir-guia" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h6 class="modal-title">Emitir Guia</h6>
+                      </div>
+                      <div class="modal-body">
+
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#home3" role="tab" aria-controls="home"><i class="icon-user"></i> Servidor</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#profile3" role="tab" aria-controls="profile"><i class="icon-people"></i> Dependentes</a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="home3" role="tabpanel">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <label for="tipo">Tipo</label>
+                                            <select class="input-group form-control" name="tipo" id="">
+                                                <option value="">Guia Consulta</option>
+                                                <option value="">Guia Exames</option>
+                                                <option value="">Guia Consulta - Boleto</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" class="btn btn-primary pull-right" value="Emitir">
+                                        </div><br><br>
+                                    </form>
+                                </div>
+                                <div class="tab-pane" id="profile3" role="tabpanel">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <label for="dependente">Dependente</label>
+                                            <select class="input-group form-control" name="dependente" id="">
+                                                <option value="">Yiorgos Avraamu</option>
+                                                <option value="">Avram Tarasios</option>
+                                                <option value="">Enéas Kwadwo</option>
+                                                <option value="">Agapetus Tadeáš</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="tipo">Tipo</label>
+                                            <select class="input-group form-control" name="tipo" id="">
+                                                <option value="">Guia Consulta</option>
+                                                <option value="">Guia Exames</option>
+                                                <option value="">Guia Consulta - Boleto</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" class="btn btn-primary pull-right" value="Emitir">
+                                        </div><br><br>
+                                    </form>
+                                </div>
+                            </div>
+
+                      </div>
+                      <div class="modal-footer">
+                      </div>
+                    </div><!-- /.modal-content -->
+                  </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+        @push('homekey')
+            <script type="text/javascript">
+
+            </script>
+        @endpush
+
 @endsection

@@ -18,11 +18,12 @@
     <title>{{ config('app.name', 'SysLab') }}</title>
 
     <!-- Icons -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/simple-line-icons.css" rel="stylesheet">
+    <link href="{{url('css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{url('css/simple-line-icons.css')}}" rel="stylesheet">
 
     <!-- Main styles for this application -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{url('css/style.css')}}" rel="stylesheet">
+    
      <!-- Scripts -->
     <script>
         window.Laravel = <?php echo json_encode([

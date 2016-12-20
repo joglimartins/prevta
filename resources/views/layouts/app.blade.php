@@ -46,7 +46,7 @@
                     </li>
                 @if(true)
                     <li class="nav-item px-1">
-                        <a class="nav-link" href="#">Início</a>
+                        <a class="nav-link" href="/home">Início</a>
                     </li>
                     <li class="nav-item px-1">
                         <a class="nav-link" href="#">Usuários</a>
