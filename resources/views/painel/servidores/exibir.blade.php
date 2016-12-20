@@ -36,7 +36,7 @@
                                     <blockquote class="card-blockquote">
                                         <button type="button" class="btn btn-sm btn-primary"><i class="fa fa-sticky-note"></i>&nbsp; Emitir Guia</button>
                                     <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-print"></i>&nbsp; Imprimir Ficha</button>
-                                    <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-pencil"></i>&nbsp; Editar</button>
+                                    <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-pencil"></i>&nbsp; Notas</button>
                                     <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-credit-card"></i>&nbsp; Carteirinha</button>
                                     <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-bar-chart"></i>&nbsp; Relatório</button>
                                     </blockquote>
@@ -76,6 +76,7 @@
                                                 <div class="card-header">
                                                     <strong>Dados Pessoais</strong>
                                                     <small></small>
+                                                    <a href="#" class="float-xs-right mb-0"><i class="fa fa-pencil"></i></a>
                                                 </div>
                                                 <div class="card-block">
                                                     <div class="form-group">
@@ -94,6 +95,7 @@
                                                 <div class="card-header">
                                                     <strong>Endereço</strong>
                                                     <small></small>
+                                                    <a href="#" class="float-xs-right mb-0"><i class="fa fa-pencil"></i></a>
                                                 </div>
                                                 <div class="card-block">
                                                     <div class="form-group">
@@ -151,6 +153,7 @@
                                                 <div class="card-header">
                                                     <strong>Dados Funcionais</strong>
                                                     <small></small>
+                                                    <a href="#" class="float-xs-right mb-0"><i class="fa fa-pencil"></i></a>
                                                 </div>
                                                 <div class="card-block">
                                                     // Formulario
@@ -166,6 +169,7 @@
                                                 <div class="card-header">
                                                     <strong>Cargo e Locação</strong>
                                                     <small></small>
+                                                    <a href="#" class="float-xs-right mb-0"><i class="fa fa-pencil"></i></a>
                                                 </div>
                                                 <div class="card-block">
                                                     // Formulario
