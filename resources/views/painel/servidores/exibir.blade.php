@@ -19,22 +19,32 @@
             <div class="container-fluid">
                 <div class="animated fadeIn">
                     <div class="row">
-                        <div class="col-md-4">
-                            Matrícula: <h6>{{$id}}</h6>
-                            Servidor(a): <h6>Juliana Vasconcelos Alves</h6>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="http://localhost:8000/img/avatars/6.jpg" alt="" width="100">
+                                </div>
+                                <div class="col-md-8" style="font-size: 14px;">
+                                    Matrícula: <br><strong>{{$id}}</strong><br>
+                                    Servidor(a): <br><strong>Juliana Vasconcelos Alves</strong>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-8">
-                            <div class="card">
+                        <div class="col-md-7" align="right">
+                            <div class="card card-inverse card-default">
                                 <div class="card-block">
-                                    <button type="button" class="btn btn-primary"><i class="fa fa-sticky-note"></i>&nbsp; Emitir Guia</button>
-                                    <button type="button" class="btn btn-inf"><i class="fa fa-print"></i>&nbsp; Imprimir Ficha</button>
-                                    <button type="button" class="btn btn-inf"><i class="fa fa-pencil"></i>&nbsp; Editar</button>
-                                    <button type="button" class="btn btn-inf"><i class="fa fa-credit-card"></i>&nbsp; Carteirinha</button>
-                                    <button type="button" class="btn btn-inf"><i class="fa fa-bar-chart"></i>&nbsp; Relatório</button>
+                                    <blockquote class="card-blockquote">
+                                        <button type="button" class="btn btn-sm btn-primary"><i class="fa fa-sticky-note"></i>&nbsp; Emitir Guia</button>
+                                    <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-print"></i>&nbsp; Imprimir Ficha</button>
+                                    <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-pencil"></i>&nbsp; Editar</button>
+                                    <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-credit-card"></i>&nbsp; Carteirinha</button>
+                                    <button type="button" class="btn btn-sm btn-inf"><i class="fa fa-bar-chart"></i>&nbsp; Relatório</button>
+                                    </blockquote>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <br>
                     <div class="row">
                         <div class="col-md-12 mb-12">
                             <ul class="nav nav-tabs" role="tablist">
@@ -68,7 +78,10 @@
                                                     <small></small>
                                                 </div>
                                                 <div class="card-block">
-                                                    // Formulario
+                                                    <div class="form-group">
+                                                        <label for="name">Nome</label>
+                                                        <input type="text" value="Juliana Vasconcelos Alves" class="form-control" id="name" placeholder="Enter your name">
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -83,7 +96,46 @@
                                                     <small></small>
                                                 </div>
                                                 <div class="card-block">
-                                                    // Formulario
+                                                    <div class="form-group">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="form-group">
+                                                                    <label for="name">Endereço</label>
+                                                                    <input type="text" value="Rua Tancredo Neves" class="form-control" id="name" placeholder="Enter your name">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                             <div class="col-md-4">
+                                                                <div class="form-group">
+                                                                     <label for="name">Numero</label>
+                                                                    <input type="text" value="688" class="form-control" id="name" placeholder="Enter your name">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="form-group">
+                                                                    <label for="name">Complemento</label>
+                                                                    <input type="text" value="Bloco 5 Apto 555" class="form-control" id="name" placeholder="Enter your name">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                             <div class="col-md-8">
+                                                                 <div class="form-group">
+                                                                     <label for="name">Cidade</label>
+                                                                    <input type="text" value="Itaboraí" class="form-control" id="name" placeholder="Enter your name">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="form-group">
+                                                                    <label for="name">Estado</label>
+                                                                    <input type="text" value="RJ" class="form-control" id="name" placeholder="Enter your name">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        
+
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -200,7 +252,7 @@
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td>twitter</td>
+                                                                <td>Twitter</td>
                                                                 <td>@juliana</td>
                                                                 <td>
                                                                     <span class="tag tag-danger">Excluir</span>
