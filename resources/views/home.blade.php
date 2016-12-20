@@ -30,7 +30,7 @@
                         <form method="get" action="{{url('/cadastro/servidores/1234')}}">
                             <div class="form-group form-group-lg">
                                 <div class="input-group input-group-lg">
-                                    <input class="form-control" type="text" id="localizainput" placeholder="Nome, Matrícula, CPF, etc.">
+                                    <input autocomplete="off" class="form-control" type="text" id="localizainput" placeholder="Aproxime o leitor de codigo de barras">
                                     <span class="input-group-btn">
                                         <button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
                                     </span>
@@ -54,11 +54,19 @@
                                 <table class="table" style="font-size: 10pt;">
                                     <tbody>
                                         <tr>
-                                            <td><strong>s</strong></td>
+                                            <td>
+                                                <div style="border: 1px #000; width: 20px; height: 20px; background: #ccc; text-align: center">
+                                                    <strong>s</strong>
+                                                </div>
+                                            </td>
                                             <td>Abrir localização rápida de segurados.</td>
                                         </tr>
                                         <tr>
-                                            <td><strong>e</strong></td>
+                                            <td>
+                                                <div style="border: 1px #000; width: 20px; height: 20px; background: #ccc; text-align: center">
+                                                    <strong>e</strong>
+                                                </div>
+                                            </td>
                                             <td>Abrir Listagem de segurados.</td>
                                         </tr>
                                     </tbody>
